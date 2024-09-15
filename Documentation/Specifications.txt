@@ -1,0 +1,30 @@
+Specs
+	LCD/OLED pixel display – nt 32x122px
+	Display size – 30x50mm kuni 60x100mm
+	Nupud kasutamiseks – D-pad ja 2-3 nuppu
+	Korpusel mugav layout – sarnane GameBoy või GBA
+	Toite lüliti – ei kasuta akut ega hakka iseenesest tööle juhtmega ühendades
+	Korpuses on rumbler/värina mootor – mängudele feedback
+	Korpuses on kõlar/buzzer – mängudele atmosfäär
+	Seadet on võimalik seinast toita – barrel jack või micro-usb/usb-c
+	Seadmel on laetav aku/patareid
+	Aku püsivus peaks olema vähemalt 1h
+	Seadme tarkvara on võimalik uuendada SD kaardi pealt/juhtmega
+	Seadmele on valminud vähemalt 1 mäng
+	Mitme mängu puhul saab menüüst valida mängu
+	Nuppe peab olema mugav kasutada – paljude valikute puhul scrolliv funktsioon
+	Kõlari valjust saab muuta rullikuga/potentsiomeetriga
+	Display võiks olla kasutatav pimedas
+	Display võiks olla kasutatav päikese käes
+	Laadimisel peaks olema indikaator LED – kiire blink kui laeb, aeglane blink kui täis
+	Kui aku hakkab tühjenema/pinge langeb – hakkab indikaator LED põlema
+	Kui aku on tühi/pinge liiga madal – sead lülitub välja
+	Tühja aku korral ei saa seadet käivitada
+	Korpus 3D-prinditud – nuppude, portide ja display jaoks on avad/väljalõiked olemas
+	Kogu funktsionaalsus peab toimima ilma, et korpust oleks vaja avada
+	Korpus käib koos kruvidega või 3D-prinditud osadega – tapid, haagid, piisavalt tugevad klambrid
+	Nupud reageerivad piisavalt kiiresti, et mitte mängu raskendada - <50ms
+	Ei tohi põlema minna
+	Ei tohi kasutajale elektrilööki anda
+	Seade peab reageerima kuni kolmele sisendile korraga
+	Tootmise maksumus peab olema <200€
