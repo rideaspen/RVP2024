@@ -1,1 +1,45 @@
+Project, Handheld gaming console. 
+
+##design and functionality
+
+Kaasaskantav video mängu kogemuse tooja mis laseb kasutajal erinevate nuppude abil manipuleerida mängu maailma mis on kuvatud Oled ekraanile. 
+Toode on piisavalt väike et mugav käes hoida.
+Ekraan tuleb väike kuid piisava lahutusvõimega et eristada üksikuid pikselid mis annab meile valiku võimaldada kuni vanakooli mängude visuaalset detailsuse kuvamist. Seade tuleb ümberprogrammeritav ja võimaldab ka edasi arendust. 
+
+tehnilised andmed 
+
+protsessor: atmega ##
+korpus: 3d printed, ideally shock resistant to some degree. 
+ekraan: 0.96" 128x64 I2C/SPI OLED display *(possibility we might change our mind)
+nupud: dpad või 6 nuppu(mängumaailma/menüü manipuleerimiseks)
+nupud2(optional use, but programmable): select, start.
+power control: kolmeasendiline lüliti on/off/boot (programmable)
+charging: voltage regulated through type ___ (gotta check difficulty of data transfer)
+data: andmeedastus läbi usb type _ 
+storage: sd card
+heli: kõlar mudel ___, format võimalused ___, potentiometer or ___ controlled roller
+      ***võiks arvestada ka disainis "speaker enclosure" üle sest isegi kehva kõlariga on akustilise disaini abil võimalik kvaliteeti parandada.
+      
+mängud: need mille juhtimiseks piisab nuppude võimalusest. (seade on ümberprogrammeeritav, hea algajate õpetamiseks) new idea* education platform
+mõõtmed: ___
+kaal: ___
+
+to be optimized:
+peame olema kindlad et nuppude reageerimine ei oleks takistatud viivitustega mis on silmale nähtavad mängu kogemuse kuvamisel ekraanile. 
+peame olema kindlad et ekraanile kuvatatava pildi uuendus sagedus oleks piisav et ei oleks näha viivitusi kuvataval. 
+peame olema kindlad et elektroonika skeem vastab standarditele ja ei tekita ohtu laadimisel, kasutamisel, ning kui neid rakendatakse samaaegselt
+peame olema kindlad et seade töötab ja tekkitab järjepidevat huvi kasutajas. 
+peame olema kindlad et ___
+
+
+design #TODO:
+side view, inside view ports described 
+
+Ideaalis kirjutame low level OS mis suudab mingis ***DOCUMENTED IDEA***
+meile sobiva mängu koodi jooksutada, vastasel juhul peaks lihtsalt tegema manusüsteemi ühe mängu jaoks. ***VAJAB OTSUST
+Ma arvan et üks mäng oleks igav, aga kui teeme seda siis me peaks säilitama ümberprogrammeeritavust ja kasutama ära valitud protsessori 
+võimalusi, ehk teeme mängu kujulise dev boardi. 
+
+
+
 
