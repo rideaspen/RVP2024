@@ -1,0 +1,48 @@
+Konsooli nõuded
+
+1. Toide
+	1.1. Seadmel on laetav aku
+		1.1.1. Täis akuga seadme tööaeg - >1h
+		1.1.2. Akul kontrollitakse üle-/alapinget
+			1.1.2.1. Aku oleku kuvamiseks on 1 või 2 LED-i
+			1.1.2.2. Liiga madala pinge korral seade lülitub välja
+			1.1.2.3. Liiga kõrge pinge korral lõpetab aku laadimise
+	1.2. Seadmel on laadimiseks type-c/micro-USB pesa
+		1.2.1. Pesa on seadme pealmisel küljel
+		1.2.2. Akut saab laadida arvuti USB pesast – 5V
+		1.2.3. Aku laadimise ajal võib seade töötada  / seadet kasutada
+	1.3. Toitelülitil on kolm asendit
+		1.3.1. Kui toitelüliti on OFF asendis – seade ei tööta, isegi juhtmega ühendades
+		1.3.2. Kui toitelüliti on ON asendis – seade töötab, kui aku tase on piisav (ref 1.1.2)
+		1.3.3. Kui toitelüliti on BOOT asendis – seade töötab ja on valmis uue programmi laadimiseks
+	1.4. Seadet peab olema ohutu kasutada juhtmega ja juhtmevaba kasutuse juures
+2. Ekraan
+	2.1. Seadmel on ühevärviline LCD/OLED ekraan
+		2.1.1. Ekraani  mõõdud kuni 90x60mm
+		2.1.2. Ekraani resolutsioon kuni 64x128
+	2.2. Ekraan kasutab I2C graafika kuvamiseks
+	2.3. Seadet peab olema võimalik kasutada pimedas ja valgusrohkes keskkonnas
+3. Lülitid
+	3.1. Ekraanist vasakul on D-pad / 4 noolenuppu, paremal on 2 kuni 4 lisanuppu 
+		3.1.1. Nuppe peab olema mugav kasutada
+		3.1.2. Nupud peavad reageerima mängu jaoks kiiresti - <5ms
+	3.2. Seadme pealmisel küljel on toitelüliti ja audio reguleerimise lüliti / rullik
+4. Audio
+	4.1. Seadmel on sees buzzer / kõlar, millega mängitakse audiot
+	4.2. Audio valjust on võimalik muuta (ref 3.2)
+5. Tarkvara
+	5.1. Seadmele on valminud vähemalt 1 mäng
+	5.2. Seadmele on võimalik teisi mänge peale laadida
+		5.2.1. Tarkvara laadimiseks peab toitelüliti olema BOOT asendis
+		5.2.2. Tarkvara laadimiseks saab kasutada type-c/micro-USB pesa
+	5.3. Seadmele laetud mäng ei pruugi kõiki nuppe kasutada
+	5.4. Ekraani kaadrisageduse määrab seadmele laetud tarkvara
+6. Korpus
+	6.1. Korpuse välimus on kaudselt sarnane GameBoy Advance disainile
+	6.2. Korpus on 3D-prinditud kahes osas
+		6.2.1. Tagumine osa käib esimese külge kruvide / mehhaaniliste klambritega
+	6.3. Korpust ei ole vaja avada aku või tarkvara laadimiseks (ref 1.2 ja 5.2.2)
+	6.4. Korpuses on avad nuppude, ekraani, lülitite, toite pesa ja audio jaoks
+	6.5. Seadme mõõtmed kuni 190x100mm
+		6.5.1. Optimaalselt võiks seade mahtuda taskusse
+	6.6. Seade võiks vastu pidada ~1m kukkumisele
